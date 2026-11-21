@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "AG-UI 互操作桥",
+    "description": "通过 HTTP 与 SSE 将 DeepSeek Harness 智能体提供给 AG-UI 前端。每个 AG-UI 线程对应一个 DSH 会话，运行过程流式输出生命周期、文本增量和工具调用事件。把前端指向 /ag-ui 前请先设置 authToken（浏览器界面还需配置 corsOrigins）。"
+  }
+}

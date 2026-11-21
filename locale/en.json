@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "AG-UI bridge",
+    "description": "Serve DeepSeek Harness agents to AG-UI frontends over HTTP and SSE. One DSH Session per AG-UI thread; runs stream lifecycle, live text deltas, and tool-call events. Set authToken (and corsOrigins for a browser UI) before pointing a frontend at /ag-ui."
+  }
+}
